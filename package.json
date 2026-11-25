@@ -1,0 +1,20 @@
+{
+  "name": "pedro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "server": "node servidor.js",
+    "server:dev": "node --watch servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
